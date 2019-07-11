@@ -10,4 +10,12 @@ function handleDecision(event) {
   if (userInput === 'east') {
     window.location = './east.html';
   }
+
+  if (userInput === 'north') {
+    window.location = './north.html'
+  }
+
+  if (userInput === 'west') {
+    window.location = './west.html'
+  }
 }
